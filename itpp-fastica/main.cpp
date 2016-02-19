@@ -18,7 +18,7 @@ int main()
 	int nrSamples = 50000, nrIC = 2;
 	mat X = zeros(nrIC, nrSamples);
 	X.set_row(0, wavread("mix1.wav"));
-	X.set_row(1, wavread("mix2.wav"));
+	X.set_row(1, wavread("mix2.wav")); 
 
 	cout << "=====================================" << endl;
 	cout << "   Test program for FastICA / IT++   " << endl;
